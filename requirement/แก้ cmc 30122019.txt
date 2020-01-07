@@ -1,0 +1,20 @@
+- dropdown เลือกเดือน ตรงหน้า home มี หรือ ไม่มี
+-  รูปหัวใจหมายถึงอะไร ใน course
+- login ทำใหม่ ให้่ตาม design เรื่อง social login ถาม design อีกที
+- เปลี่ยนสี category ใหม่ ให้ตาม design
+- font ขนาด ไม่เท่ากัน view กับ ราคา course
+- ปุ่ม all courses เว้นระยะใหม่ 
+- เรื่องเวลาในข่าว ต้องมีเหมือนเดิม หรือ ตัดออก
+- ตรง รีวิว ปรับใหม่ให้ตาม design
+- หน้า our product ปรับให้ ตรงตาม design และ เรี่องของ title บนสุด หมายถึงอะไร
+- หน้า view product design เป็นแบบไหน
+- หน้า course ตรง category และ intructor ทำเป็นแบบ search multi
+- หน้า รายละเอียด course สรุปตรง course feature ว่ามี หรือ ไม่มี
+- หน้า รายละเอียด course tab menu ทำให้เหมือน design
+- หน้า รายละเอียด course latest course ทำให้เหมือน design
+- ตรง link title ทำให้เหมือน design ทุกหน้า
+- หน้า รายละเอียด course ตรง tab menu เหลือ 3 กลุ่ม menu รอ design อีกที
+- หน้า news & event ตรง readmore เคาะครั้งนึง Read more
+- หน้า รายละเอียด news ตรง latest ทำให้เหมือน design และ ตรง date , location share ทำให้เหมือน design
+- หน้า contact us รอ desgin
+- หน้า term รอ design
