@@ -150,7 +150,7 @@ class MyCourseController extends Controller
       ->where(['test_id' => $detail['pretest_posttest_header']->test_id,'user_id' => session('session_id')])
       ->first();
 
-      if(count($check_duplicate_test)>0){
+      if(count($check_duplicate_test)==0){
       return redirect()->back()->with('error', 'You have completed this pretest & posttest. Cannot be repeated!');
       exit;
       }

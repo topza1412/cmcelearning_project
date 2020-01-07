@@ -554,6 +554,7 @@ $('#form_pre_post')[0].reset();
                                     <td>{{$i++}}</td>
                                     <td>{{$value->lesson_name}}</td>
                                     <td>
+                                    @if(isset($data['file_lesson']))
                                     @if(count($data['file_lesson'][$key])>0)
                                     @foreach($data['file_lesson'][$key] as $value2)
                                     <?php $lesson_file[] = $value2->lesson_file;?>
@@ -561,6 +562,7 @@ $('#form_pre_post')[0].reset();
                                     @endforeach
                                     @else
                                     {{'-'}}
+                                    @endif
                                     @endif
                                     </td>
                                     <td>

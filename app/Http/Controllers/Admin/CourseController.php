@@ -154,7 +154,8 @@ class CourseController extends Controller
       $pre_post_test = null;
       $question = null;
 
-      $lesson = Lesson::select('lesson.lesson_id','lesson.lesson_name','lesson.lesson_vdo_url','lesson.document_file','lesson.lesson_content','lesson.lesson_status','lesson.created_at as date_create','lesson.updated_at as date_update')->join('course', 'course.course_id', '=', 'lesson.course_id')->paginate(10);
+      $lesson = Lesson::select('lesson.lesson_id','lesson.lesson_name','lesson.lesson_vdo_url','lesson.lesson_content','lesson.lesson_status','lesson.created_at as date_create','lesson.updated_at as date_update')->join('course', 'course.course_id', '=', 'lesson.course_id')->paginate(10);
+
 
       $gradebook = GradeBook::select('user_course.user_course_id','user.first_name','user_course.start_date','user_course.finish_date','lesson.user_course_status','lesson.total_score')->join('orders', 'orders.order_id', '=', 'user_course.order_id')->join('user', 'user.user_id', '=', 'orders.user_id')->paginate(10);
 
@@ -800,7 +801,7 @@ class CourseController extends Controller
 
       else if($page=='LessonFileDelete'){
       $result = DB::table('lesson_file')->where('lesson_file',$id)->delete();
-      unlink('upload/member/lesson/file/'.$request->id);
+      unlink('upload/member/lesson/file/'.$id);
       }
 
 
